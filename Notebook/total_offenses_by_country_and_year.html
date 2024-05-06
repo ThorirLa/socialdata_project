@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.4.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="eb388975-f5fd-4f51-b0b5-02db552dbc26" data-root-id="p1841" style="display: contents;"></div>
+  
+    <script type="application/json" id="b949de8b-c034-4f00-9440-b5d4b6ad5685">
+      {"b3560b3d-6a79-451c-9af6-9b3968b7f43a":{"version":"3.4.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1841","attributes":{"width":800,"height":400,"x_range":{"type":"object","name":"FactorRange","id":"p1851","attributes":{"factors":["2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1843"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1852"},"y_scale":{"type":"object","name":"LinearScale","id":"p1853"},"title":{"type":"object","name":"Title","id":"p1844","attributes":{"text":"Crime rates by Country and Year"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1881","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1838","attributes":{"selected":{"type":"object","name":"Selection","id":"p1839","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1840"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAA="},"shape":[14],"dtype":"int32","order":"little"}],["Year",{"type":"ndarray","array":["2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022"],"shape":[14],"dtype":"object","order":"little"}],["norway_offenses_per_population",{"type":"ndarray","array":{"type":"bytes","data":"aIQJ5yY1tT/ne7qK0cS0P0uFZ8taB7Q/tXDaZ4p7tD/iEPhBqPKzP2H9PKbF27I/jJajzE+csT+k5kQv6KuwP5KgpGiRSa8/BzKcX9f0rj+ikbm4yfutP828TSqI46w/RxMn2OCYqj8uI6tAx+2sPw=="},"shape":[14],"dtype":"float64","order":"little"}],["sweden_offenses_per_population",{"type":"ndarray","array":{"type":"bytes","data":"Q35NzxFDwz98fGO9QKHCPwGf5mj0HcM/AdGgFJnJwj/hzGAILJvCP4uICemC9cI/BA/VhdeIwz8UubFmA1fDP4EdjzINKcM/2ZjzicNmwz+XdNZY4DDDP9GY5UazUsM/CQx0TYohwj85Ytph9JvBPw=="},"shape":[14],"dtype":"float64","order":"little"}],["denmark_offenses_per_population",{"type":"ndarray","array":{"type":"bytes","data":"BpNvg4Afuj8hawdOWD65P3soFXUmsbk/ZL1kFEVnuD+aT3HII3y4P4a8Fqr0m7c/ShlvvXiztj/siFAwzyu3P5P2570UK7c/NbHZC7t8tj9w17oBv/61P+2o3S8ZirM/uCkwwqUcsj8o0BTPLaG0Pw=="},"shape":[14],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1882","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1883"}}},"glyph":{"type":"object","name":"VBar","id":"p1878","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"norway_offenses_per_population"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"value","value":"#1f77b4"},"hatch_color":{"type":"value","value":"#1f77b4"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1879","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"norway_offenses_per_population"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1880","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"norway_offenses_per_population"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1890","attributes":{"data_source":{"id":"p1838"},"view":{"type":"object","name":"CDSView","id":"p1891","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1892"}}},"glyph":{"type":"object","name":"VBar","id":"p1887","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"sweden_offenses_per_population"},"line_color":{"type":"value","value":"#ff7f0e"},"fill_color":{"type":"value","value":"#ff7f0e"},"hatch_color":{"type":"value","value":"#ff7f0e"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1888","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"sweden_offenses_per_population"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1889","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"sweden_offenses_per_population"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p1899","attributes":{"data_source":{"id":"p1838"},"view":{"type":"object","name":"CDSView","id":"p1900","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1901"}}},"glyph":{"type":"object","name":"VBar","id":"p1896","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"denmark_offenses_per_population"},"line_color":{"type":"value","value":"#2ca02c"},"fill_color":{"type":"value","value":"#2ca02c"},"hatch_color":{"type":"value","value":"#2ca02c"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1897","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"denmark_offenses_per_population"},"line_color":{"type":"value","value":"#2ca02c"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#2ca02c"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#2ca02c"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1898","attributes":{"x":{"type":"field","field":"Year"},"width":{"type":"value","value":0.7},"top":{"type":"field","field":"denmark_offenses_per_population"},"line_color":{"type":"value","value":"#2ca02c"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#2ca02c"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#2ca02c"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1850","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1864"},{"type":"object","name":"WheelZoomTool","id":"p1865","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1866","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1867","attributes":{"syncable":false,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5}}}},{"type":"object","name":"SaveTool","id":"p1872"},{"type":"object","name":"ResetTool","id":"p1873"},{"type":"object","name":"HelpTool","id":"p1874"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1859","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1860","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1861"},"axis_label":"Total Offenses","major_label_policy":{"type":"object","name":"AllLabels","id":"p1862"}}}],"right":[{"type":"object","name":"Legend","id":"p1902","attributes":{"location":[0,0],"click_policy":"mute","items":[{"type":"object","name":"LegendItem","id":"p1903","attributes":{"label":{"type":"value","value":"Norway"},"renderers":[{"id":"p1881"}]}},{"type":"object","name":"LegendItem","id":"p1904","attributes":{"label":{"type":"value","value":"Sweden"},"renderers":[{"id":"p1890"}]}},{"type":"object","name":"LegendItem","id":"p1905","attributes":{"label":{"type":"value","value":"Denmark"},"renderers":[{"id":"p1899"}]}}]}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1854","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1855"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1856"},"axis_label":"Year","major_label_policy":{"type":"object","name":"AllLabels","id":"p1857"}}}],"center":[{"type":"object","name":"Grid","id":"p1858","attributes":{"axis":{"id":"p1854"}}},{"type":"object","name":"Grid","id":"p1863","attributes":{"dimension":1,"axis":{"id":"p1859"}}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('b949de8b-c034-4f00-9440-b5d4b6ad5685').textContent;
+              const render_items = [{"docid":"b3560b3d-6a79-451c-9af6-9b3968b7f43a","roots":{"p1841":"eb388975-f5fd-4f51-b0b5-02db552dbc26"},"root_ids":["p1841"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
